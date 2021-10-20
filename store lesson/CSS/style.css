@@ -1,0 +1,65 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+header{
+    height: 15vh;
+    background:linear-gradient(to bottom,yellow,brown);
+ 
+}
+  
+.title{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:polygon(100% 0, 100% 46%, 100% 100%, 48% 71%, 0 100%, 0 0),blue;
+}
+.menu-1{
+    background: linear-gradient(to right, rgb(248, 132, 132), rgb(48, 48, 236));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-1 ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu-1 ul li{
+    padding: 15px;
+    margin-left: 15px;
+}
+.menu-1 ul li:hover{
+    padding: 15px;
+    background: black;
+    /* padding: 25px; */
+}
+.menu-1 a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/* ==========<>============ */
+.content{
+    display: flex;
+}
+
+.content-2{
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    gap:10px;
+    width: 25%;
+    margin: 10px;
+}
+.content-1{
+    background: rgb(163, 163, 163);
+    padding: 25px;
+}
+.content-2 a{
+    text-decoration: none;
+    color: black;
+}
