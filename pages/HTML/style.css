@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* -------------------------nav---------------------- */
+nav{
+    box-shadow: 0px 10px 10px 5px ;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    padding: 10px;
+}
+nav ul li:hover{
+    transition: 1s;
+    background: rgb(99, 96, 96);
+    padding: 10px;
+    box-shadow: 10px 10px 10px 10px;
+    border-radius: 5px;
+}
+nav ul a:hover{
+    transition: 1s;
+    color: rgb(230, 213, 213);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 10px;
+}
+nav form input[type="search"]{
+    background: rgba(7, 7, 7, 0.651);
+    border: none;
+    outline: none;
+}
+nav form button[type="submit"]{
+    background: blue;
+    border: none;
+    color: white;
+}
+nav form button[type="submit"]:hover{
+    transition: 1s;
+    background: rgb(0, 235, 90);
+    box-shadow: 0px 0px 10px 10px;
+    border: none;
+    color: white;
+}
+/* -----------------------slide----------------- */
+#slide{
+    background: url(img/1.jpg);
+    height: 60vh;
+    box-shadow: 0px 0px 5px 5px;
+}

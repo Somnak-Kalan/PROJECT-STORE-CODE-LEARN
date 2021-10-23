@@ -1,4 +1,88 @@
-/* #navbarScroll{ */
-    /* display: flex; */
-    /* justify-content: space-between; */
-/* } */
+/* -------------------------nav---------------------- */
+nav{
+    box-shadow: 0px 10px 10px 5px ;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    padding: 10px;
+}
+nav ul li:hover{
+    transition: 1s;
+    background: rgb(99, 96, 96);
+    padding: 10px;
+    box-shadow: 10px 10px 10px 10px;
+    border-radius: 5px;
+}
+nav ul a:hover{
+    transition: 1s;
+    color: rgb(230, 213, 213);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 10px;
+}
+nav form input[type="search"]{
+    background: rgba(7, 7, 7, 0.651);
+    border: none;
+    outline: none;
+}
+nav form button[type="submit"]{
+    background: blue;
+    border: none;
+    color: white;
+}
+nav form button[type="submit"]:hover{
+    transition: 1s;
+    background: rgb(0, 235, 90);
+    box-shadow: 0px 0px 10px 10px;
+    border: none;
+    color: white;
+}
+/* ------------------------------------------------------- */
+#slide{
+    display: flex;
+    box-shadow: 5px 6px 10px 5px;
+    word-wrap: break-word;
+}
+#slide .slide-left{
+    width: 100%;
+    border-radius: 0 0 50rem 0;
+    background: #000;
+}
+#slide .slide-right{
+    background: rgb(255, 255, 255);
+}
+.content-1{
+    background: rgb(0, 0, 0);
+    box-shadow: 0px 5px 10px 5px;
+}
+#content #small:hover{
+    background: #000;
+    padding: 10px;
+}
+#content .card-footer button:hover{
+    transition: 1s;
+    padding: 10px;
+    box-shadow: 0px 5px 10px 5px rgb(78, 76, 76);
+}
+#content .card{
+    box-shadow: 0px 0px 5px 5px rgb(97, 95, 95);
+}
+/* ------------------slide------------------------- */
+/* footer  */
+#footer footer i{
+    font-size: 2rem;
+    background: rgba(13, 30, 221, 0.849);
+    color: white;
+    padding: 15px;
+    border-radius: 10px 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+#footer footer i:hover{
+    transition: 1s;
+    color: white;
+    box-shadow: 0px 0px 5px 5px black;
+    background:linear-gradient(to right ,rgb(82, 82, 64),rgb(77, 110, 85),black);
+}

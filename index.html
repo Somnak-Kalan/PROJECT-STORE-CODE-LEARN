@@ -5,22 +5,22 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
-  <section>
-      <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-        <div class="container-fluid ">
-          <a class="navbar-brand text-light text-uppercase" href="#"><strong class="text-success" >C</strong>o<strong class="text-success" >D</strong>e</a>
+      <nav class=" navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid shadow-lg rounded">
+          <div class="logo">
+            <a class=" navbar-brand text-light text-uppercase" href="#"><strong class="text-success" >C</strong>o<strong class="text-success" >D</strong>e</a>
+          </div>
           <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse  " id="navbarScroll">
+          <div class="collapse navbar-collapse d-flex    justify-content-center"   id="navbarScroll">
             <ul class=" navbar-nav me-auto my-lg-0 " style="--bs-scroll-height: 100px;">
               <li class="nav-item ">
                 <a class="nav-link text-light text-uppercase " href="#">Home</a>
@@ -32,91 +32,208 @@
                 <a class="nav-link text-light text-uppercase" href="#">contact</a>
               </li>
             </ul>
-            <form class="d-flex ">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
           </div>
+          <form class="d-flex">
+            <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+            <button class=" ml-3 btn" type="submit">Search</button>
+          </form>
         </div>
       </nav>
-  </section>
 <!-- ------------------section slide----------- -->
-<section>
-  <div>
-    <header>
-        <div class="container-fluid">
-          <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-mdb-toggle="collapse"
-                  data-mdb-target="#navbarExample01"
-                  aria-controls="navbarExample01"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation">
-            <i class="fas fa-bars"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarExample01">
-          </div>
-        </div>
-      <div
-              class="p-5 text-center bg-image"
-              style="
-              background-image: url('https://mdbootstrap.com/img/new/slides/041.jpg');
-              height: 400px;
-              margin-top: 58px;
-            ">
-      </div>
-    </header>
+<section id="slide" class="mt-5">
+  <div class="slide-left"></div>
+  <div class="slide-right">
+    <div class="d-flex">
+      <img class="w-75" src="imghome/undraw-1.png" alt="">
+    </div>
   </div>
 </section>
 <!-- -----------------section-lesson----------------- -->
-<section>
-<div class="container mt-5 bg-dark p-5">
-  <div class="card-deck  col-12 row ">
-    <div class="card col-3">
-      <img class="card-img-top"src="img_home/html.png" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+<section id="content">
+  <div class="container content-1 rounded mt-5 bg-dark p-5">
+    <div class=" row  ">
+      <div class="card col-md-2">
+        <div class="d-flex justify-content-center mt-2">
+          <img class="card-img-top w-25"src="imghome/html.png" alt="Card image cap">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title text-center">html</h5>
+          <p class="card-text">This is a wider card with supporting text beloer.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted"><a class=" d-flex justify-content-center" href="pages/HTML/index.html"><button id="small" class="text-uppercase p-2 border-0 rounded bg-primary text-white">learn more</button></a></small>
+        </div>
       </div>
-      <div class="card-footer">
-        <small class="text-muted">Last updated 3 mins ago</small>
+      <div class="card col-md-2 ">
+        <div class="d-flex justify-content-center mt-2">
+          <img class="card-img-top w-25" src="imghome/css.png" alt="Card image cap">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title text-center">css</h5>
+          <p class="card-text">This card has supporting text below as a natura.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted"><a class=" d-flex justify-content-center" href=""><button class="p-2 border-0 rounded bg-primary text-uppercase text-white">learn more</button></a></small>
+        </div>
       </div>
-    </div>
-    <div class="card col-3">
-      <img class="card-img-top" src="" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <div class="card col-md-2 ">
+        <div class="d-flex justify-content-center mt-2">
+          <img class="card-img-top w-25" src="imghome/js.png" alt="Card image cap">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title text-center">java script</h5>
+          <p class="card-text">This is a wider card with supporting text below </p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted"><a class=" d-flex justify-content-center" href=""><button class="text-uppercase text-white p-2 border-0 rounded bg-primary ">learn more</button></a></small>
+        </div>
       </div>
-      <div class="card-footer">
-        <small class="text-muted">Last updated 3 mins ago</small>
+      <div class="card col-md-2 ">
+        <div class="d-flex justify-content-center mt-2">
+          <img class="card-img-top w-25" src="imghome/boostrap.png" alt="Card image cap">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title text-center">boostrap</h5>
+          <p class="card-text">This is a wider card with supporting text below as 
+       .</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted  "><a class=" d-flex justify-content-center" href=""><button class="p-2 border-0 rounded bg-primary text-uppercase text-white">learn more</button></a></small>
+        </div>
       </div>
-    </div>
-    <div class="card col-3">
-      <img class="card-img-top" src="..." alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <div class="card col-md-2 ">
+        <div class="d-flex justify-content-center mt-2">
+          <img class="card-img-top w-25" src="imghome/boostrap.png" alt="Card image cap">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title text-center">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as 
+       .</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted  "><a class=" d-flex justify-content-center" href=""><button class="p-2 border-0 rounded bg-primary text-uppercase text-white">learn more</button></a></small>
+        </div>
       </div>
-      <div class="card-footer">
-        <small class="text-muted">Last updated 3 mins ago</small>
-      </div>
-    </div>
-    <div class="card col-3">
-      <img class="card-img-top" src="..." alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as 
-    a natural lead-in to additional content. This card has even longer 
-    content than the first to show that equal height action.</p>
-      </div>
-      <div class="card-footer">
-        <small class="text-muted">Last updated 3 mins ago</small>
+      <div class="card col-md-2 ">
+        <div class="d-flex justify-content-center mt-2">
+          <img class="card-img-top w-25" src="imghome/boostrap.png" alt="Card image cap">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title text-center">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as 
+       .</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted  "><a class=" d-flex justify-content-center" href=""><button class="p-2 border-0 rounded bg-primary text-uppercase text-white">learn more</button></a></small>
+        </div>
       </div>
     </div>
   </div>
-</div>
+</section>
+<!-- <footer></footer> -->
+<section class=" bg-secondary mt-5" id="footer"> 
+    <footer class="row container">
+      <div class="col-md-2 text-white">
+        <h4 class="text-center">web developer</h4>
+        <div class="d-flex justify-content-center">
+          <ul class="text-uppercase ">
+            <li class=""><a class="text-white" href="">html</a></li>
+            <li><a class="text-white" href="">css</a></li>
+            <li><a class="text-white" href="">boostrap</a></li>
+            <li><a class="text-white" href="">JavaScript</a></li>
+            <li><a class="text-white" href="">Java</a></li>
+            <li><a class="text-white" href="">sql</a></li>
+            <li><a class="text-white" href="">NoSQL</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class=" col-md-2">
+        <h3 class="text-white">Popular Design</h3>
+        <div class="design">
+          <ul class="text-white" >
+            <li><a class="text-white"  href="">Sketch</a></li>
+            <li><a class="text-white"  href="">InVision Studio</a></li>
+            <li><a class="text-white"  href="">Axure</a></li>
+            <li><a class="text-white"  href="">Craff</a></li>
+            <li><a class="text-white"  href="">Proto.io</a></li>
+            <li><a class="text-white"  href="">Adobe XD</a></li>
+            <li><a class="text-white"  href="">Marvel</a></li>
+            <li><a class="text-white"  href="">Figma</a></li>
+            <li><a class="text-white"  href="">Webflow</a></li>
+            <li><a class="text-white" href="">flowMapp</a></li>
+            <li><a class="text-white"  href="">VisualSitemaps</a></li>
+            <li><a class="text-white"  href="">TreeJact</a></li>
+            <li><a class="text-white"  href="">Wireframe.cc</a></li>
+            <li><a class="text-white"  href="">Optimal Workshop</a></li>
+            <li><a class="text-white"  href="">uizard</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class=" col-md-4 ">
+        <h4 class="text-uppercase mt-1 rounded d-flex justify-content-center text-dark ">social media</h4>
+        <div class="icon d-flex justify-content-center">
+          <i class="fa fa-instagram "></i>
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fab fa-tiktok"></i>
+          <i class="fa fa-youtube-play"></i>
+        </div>
+        <div class="d-flex justify-content-center text-uppercase">
+          <ul class="list-group">
+            <li class="list-group-item text-center" ><a href="">home</a></li>
+            <li class="list-group-item mt-1 text-center"><a href="">about</a></li>
+            <li class="list-group-item mt-1 text-center"><a href="">contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class=" col-md-2">
+        <h4 class="text-white">Freelancer</h4>
+        <div class="freelancer">
+          <ul class="text-white">
+            <li><a class="text-white" href="">Fiverr</a></li>
+            <li><a class="text-white" href="">Upwork</a></li>
+            <li><a class="text-white" href="">Toptal</a></li>
+            <li><a class="text-white" href="">Linkedin</a></li>
+            <li><a class="text-white" href="">Flexjobs</a></li>
+            <li><a class="text-white" href="">SimplyHired</a></li>
+            <li><a class="text-white" href="">Guru</a></li>
+            <li><a class="text-white" href="">freelancer.com</a></li>
+            <li><a class="text-white" href="">Behance</a></li>
+            <li><a class="text-white" href="">99designs</a></li>
+            <li><a class="text-white" href="">Dribbble</a></li>
+            <li><a class="text-white" href="">People Per Hour</a></li>
+            <li><a class="text-white" href="">iFreelance</a></li>
+            <li><a class="text-white" href="">designHill</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div>
+          <h4 class="text-uppercase">edite Video</h4>
+          <ul class="text-uppercase text-white">
+            <li><a class="text-white" href="">quit</a></li>
+            <li><a class="text-white" href="">Adobe spark</a></li>
+            <li><a class="text-white" href="">clipchamp</a></li>
+            <li><a class="text-white" href="">veed</a></li>
+            <li><a class="text-white" href="">magisto</a></li>
+          </ul>
+          <h4 class="text-uppercase text-center text-white">edite Picture</h4>
+          <ul class="text-uppercase text-white ">
+            <li><a class="text-white" href="">fotor</a></li>
+            <li><a class="text-white" href="">photopea</a></li>
+            <li><a class="text-white" href="">lightroom</a></li>
+            <li><a class="text-white" href="">photoshop</a></li>
+            <li><a class="text-white" href="">magisto</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="footer bg-dark p-2" >
+      <h5 class="text-center text-white">
+        <i class="fa fa-copyright"></i>
+        somnak kalan
+      </h5>
+    </div>
 </section>
 </body>
 </html>
